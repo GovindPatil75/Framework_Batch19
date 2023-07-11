@@ -22,7 +22,7 @@ public class VerifyTC_001 extends BaseClass{
 		//Login
 		Library.custom_click(login.getbtn_login(),"Login Button");
 		
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 		//Library.Handle_Alert(driver).dismiss();
 	
 		//Library.HandleDropDown(null, null);

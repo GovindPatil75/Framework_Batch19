@@ -9,7 +9,7 @@ public class ExtentReportGenrator {
 	public static ExtentReports extent;
 	public static ExtentReports getReports() {
 		
-		String path="C:\\Users\\Dell\\eclipse-workspace\\Framework_Batch19\\Reports\\index.html";
+		String path="C:\\Users\\Admin\\OneDrive\\Desktop\\Framework_Batch19\\Framework_Batch19\\Reports";
 	
 		 //ExtentSparkReporter
 		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
