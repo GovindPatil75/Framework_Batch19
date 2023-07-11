@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Utility.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="com.LoginTest.VerifyTC_001">
+        <methods>
+          <include name="verifyTC_001_loginvalidCredentials"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="initilizationObject"/>
+        </methods>
+      </class> <!-- com.LoginTest.VerifyTC_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
