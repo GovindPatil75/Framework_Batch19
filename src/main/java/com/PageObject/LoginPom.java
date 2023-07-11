@@ -4,10 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class LoginPom {
+import com.Utility.BaseClass;
+
+public class LoginPom extends BaseClass{
 
 	//Identify WebElement -XPath
-	@FindBy(how=How.XPATH,using="//input[@id='emai']")
+	@FindBy(how=How.XPATH,using="//input[@id='email']")
 	private WebElement txt_Email;
 	
 	@FindBy(how=How.XPATH,using="//input[@id='pass']")

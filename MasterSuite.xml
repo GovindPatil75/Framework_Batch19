@@ -10,6 +10,7 @@
   <class name="com.LoginTest.VerifyTC_001"></class>
   <class name="com.LoginTest.VerifyTC_002"></class>
   <class name="com.LoginTest.VerifyTC_003"></class>
+
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

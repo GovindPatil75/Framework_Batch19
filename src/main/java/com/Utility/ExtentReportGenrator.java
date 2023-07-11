@@ -9,8 +9,8 @@ public class ExtentReportGenrator {
 	public static ExtentReports extent;
 	public static ExtentReports getReports() {
 		
-		String path="C:\\Users\\Dell\\eclipse-workspace\\Framework_Batch19\\Reports\\index.html";
-	
+		String path=("C:\\Users\\siddhant\\Desktop\\Framework_19\\Framework_Batch19\\Reports\\index.html");
+		
 		 //ExtentSparkReporter
 		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
 		reporter.config().setDocumentTitle("Automation Test Report");
@@ -24,7 +24,7 @@ public class ExtentReportGenrator {
 		extent.setSystemInfo("Project Name", "Batch 19");
 		extent.setSystemInfo("O.S.", "Window 10");
 		extent.setSystemInfo("Browser Name", "Chrome");
-		extent.setSystemInfo("QA", "ABC");
+		extent.setSystemInfo("QA", "Siddhant");
 		return extent;
 		
 	

@@ -7,7 +7,7 @@ import java.util.Properties;
 public class ConfigDataProvider {
 	public Properties pro ;
 	public ConfigDataProvider() throws Exception {
-		String filepath="C:\\Users\\Dell\\eclipse-workspace\\Framework_Batch19\\Config\\Config.Properties";
+		String filepath="C:\\Users\\siddhant\\Desktop\\Framework_19\\Framework_Batch19\\Config\\Config.Properties";
 		FileInputStream fis=new FileInputStream(filepath);
 		pro=new Properties();
 		pro.load(fis);
