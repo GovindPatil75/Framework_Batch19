@@ -2,7 +2,7 @@ package com.LoginTest;
 
 import org.testng.annotations.Test;
 
-public class VerifyTC_005 {
+public class VerifyTC_008 {
 	@Test
 	public void VerifyRegistration() {
 		
