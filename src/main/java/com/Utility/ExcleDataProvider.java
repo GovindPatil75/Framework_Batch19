@@ -10,7 +10,7 @@ public class ExcleDataProvider {
 	public XSSFWorkbook wb;
 	public ExcleDataProvider() throws Exception {
 		
-	String path="C:\\Users\\Dell\\eclipse-workspace\\Framework_Batch19\\TestData\\Data.xlsx";
+	String path="C:\\Users\\hp\\Desktop\\project framework\\Framework_Batch19\\TestData\\Data.xlsx";
 	FileInputStream file=new FileInputStream(path);
 	wb=new XSSFWorkbook(file);
 	
